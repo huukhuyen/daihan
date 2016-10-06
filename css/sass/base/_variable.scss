@@ -1,0 +1,52 @@
+// **********************************
+//   font-face
+// **********************************
+@font-face {
+  font-family: "UTM Alexander";
+  src: url(asset-path("../fonts/UTM Alexander.ttf"));
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "futura-medium";
+  src: url(asset-path("fonts/futura-medium.eot"));
+  src: url(asset-path("fonts/futura-medium.woff")) format("woff"),
+  url(asset-path("assets/fonts/futura-medium.ttf")) format("truetype"),
+  url(asset-path("fonts/futura-medium.svg")) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+// **********************************
+//   font-family
+// **********************************
+$font-family-body: "Roboto", sans-serif;
+$font-family-w6: "UTM Alexander", sans-serif;
+$font-awesome: "FontAwesome";
+$font-avenirnext-bold: "AvenirNext-Bold", sans-serif;
+$font-futura-medium: "futura-medium", sans-serif;
+// **********************************
+//   COLOR
+// **********************************
+// Brand Color
+$color-primary: #660000;
+
+// Application Color
+$color-a: #ffffff;
+$color-b: #f7f7f7;
+$color-c: #000000;
+$color-d: #e1e1e1;
+$color-e: #eee;
+
+
+$color-red: #FF0000;
+$color-red-hv:#bc0a0a;
+$color-red-hv2:#660000;
+$color-primary-red:#cc1616;
+$color-primary-grey:#333333;
+
+// Device responsive
+$w480: 480px;
+$w640: 640px;
+$w768: 768px;
+$w1024: 1024px;

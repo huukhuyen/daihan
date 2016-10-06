@@ -1,0 +1,32 @@
+.footer {
+  position: relative;
+  background: url("../images/bg-footer.jpg") center no-repeat;
+  min-height: 316px;
+  .footer-left {
+    width: 54%;
+    float: left;
+    color: $color-a;
+    padding-top: 56px;
+    h2 {
+      padding: 10px 0;
+      text-transform: uppercase;
+      font-size: 25px;
+      span {
+        color: $color-primary-red;
+      }
+    }
+    p {
+      padding: 5px 0;
+      color: $color-e;
+      i.fa {
+        margin-right: 10px;
+        &:hover {
+          color: $color-primary-red;
+        }
+      }
+    }
+    .copyright {
+      padding-top: 38px;
+    }
+  }
+}

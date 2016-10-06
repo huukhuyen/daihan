@@ -1,0 +1,32 @@
+@include scrollbar($color-primary-red);
+.title-section {
+  font-weight: bold;
+  padding: 40px 0 25px;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: normal;
+  span {
+    color: $color-primary-red;
+  }
+  .more a {
+    font-family: $font-family-body;
+    float: right;
+    text-transform: none;
+    font-size: 14px;
+    color: $color-primary-grey;
+    &:hover {
+      color: $color-primary-red;
+    }
+  }
+}
+.name {
+  text-align: justify;
+  padding: 2px 0 10px;
+  line-height: 20px;
+  font-size: 16px;
+  a {
+    &:hover {
+      color: $color-primary-red;
+    }
+  }
+}
